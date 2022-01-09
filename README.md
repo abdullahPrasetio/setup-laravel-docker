@@ -40,6 +40,15 @@ cd src && docker-compose run php composer create-project laravel/laravel src
 docker-compose run php php artisan <..>
 ```
 
+## Fix bug  permission denied
+**Gunakan cd src jika diluar folder src**
+```
+cd src && docker-compose run php php artisan storage:link
+```
+```
+cd src && docker-compose run php chown -R www-data:www-data *
+```
+
 sekarang silahkan lakukan development di folder src
 
 akses program yang telah terinstal di localhost:8081
