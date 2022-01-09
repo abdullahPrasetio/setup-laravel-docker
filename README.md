@@ -32,8 +32,10 @@ docker-compose build && docker-compose up -d
 ```
 4. create project laravel
 ```
-docker-compose run php composer create-project laravel/laravel .
+docker-compose run php composer create-project laravel/laravel src
 ```
+
+sekarang silahkan lakukan development di folder src
 
 akses program yang telah terinstal di localhost:8081
 
