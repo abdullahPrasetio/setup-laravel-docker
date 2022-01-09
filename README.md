@@ -18,11 +18,19 @@ Copy kan code berikut ke terminal directory yang anda inginkan
 ```
 git clone git@github.com:abdullahPrasetio/setup-laravel-docker.git
 ```
-2. lakukan build 
+2. Rename folder
+```
+mv setup-laravel-docker <new name folder>
+```
+3. Masuk ke folder
+```
+cd <new name folder>
+```
+4. lakukan build 
 ```
 docker-compose build && docker-compose up -d
 ```
-3. create project laravel
+4. create project laravel
 ```
 docker-compose run php composer create-project laravel/laravel .
 ```
