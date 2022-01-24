@@ -32,7 +32,7 @@ docker-compose build && docker-compose up -d
 ```
 4. create project laravel
 ```
-cd src && docker-compose run php composer create-project laravel/laravel src
+cd src && docker-compose run php composer create-project laravel/laravel .
 ```
 
 ## Gunakan Perintah ini untuk melakukan artisans
